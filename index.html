@@ -4,222 +4,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Karin">
+    <meta name="author" content="Karin Suchowlanski Drobiner">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Yo soy Karin</title>
 
 </head>
 
 <body>
-<!---NAVBAR-->
-  <div class="sticky-wraper">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">
-        </a>
-        <img src="images/APLogo-20-20.png" class="logo-ap">
+  <!---NAVBAR-->
+  <header>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">
+    </a>
+    <img src="images/APLogo-20-20.png" class="logo-ap">
 
-        <button button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="linkedin.com/in/karin-sudro"><strong>LinkedIn</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact"><strong>Contacto</strong></a>  
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#home"><strong>Home</strong></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="login.html"><strong>Login</strong></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+    <button button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home"><strong>Home</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="linkedin.com/in/karin-sudro" target="_blank"><strong>LinkedIn</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume"><strong>CV</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><strong>Contacto</strong></a>  
+        </li>      
+        <li class="nav-item active">
+          <a class="nav-link" href="login.html"><strong>Login</strong></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
 <!---ENCABEZADO-->
-    <img class="encabezado img-fluid mx-auto d-block" src="images/painting2.jpg" alt="">
+    <img class="encabezado img-fluid mx-auto d-block" src="images/painting4.jpg" alt="">
 
 <!---SECCIONES-->
 <!---ABOUT ME-->
-  <div class="container bio arriba">
+  <div class="container bio arriba" id="home">
+    <h3 class="titulo-centrado">Something about me</h3>
     <div class="row justify-content-center">
       <div class="bio-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
         <img class="bio-image" src="images/fotoBio2.jpg" alt="">
         <p class="bio-title"> Te propongo descargar mi CV completo.</p>
       </div>
       <div class="col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
+      <p><i>
         ¡Hola! <br>
         Yo soy Karin Suchowlanski Drobiner.<br>
-        Me considero una persona responsable, curiosa y creativa, con trayectoria en educación. <br>
+        Me considero una persona responsable, curiosa y creativa.<br>
+        Disfruto de trabajar en equipo.<br>
         Encontré en la programación un camino que me apasiona, que me permite crear, aprender y descubrir siempre algo nuevo. <br>
-        En mi rol de facilitadora, planificando y encarando proyectos y talleres con inclusión de TIC, y enseñando tanto a docentes como alumnos 
-        los recursos necesarios para realizarlos. <br>
-        En mi rol de profesora de computación (pensamiento computacional), programación y robótica, enseñando y guiando a niños de 3, 4 y 5 años.
-        Como facilitadora y docente, arbitrando diferentes estrategias de aprendizaje para lograr los objetivos propuestos. <br>
-        Como diseñadora gráfica, tengo experiencia en diferentes áreas del diseño editorial, web y redes sociales.
-      </p>
+        
+    </i></p>
     </div>
     </div>
   </div>
 
 <!---EXPERIENCIA EDUCACION-->
   <div class="container experience justify-content-center">
-    <h3 class="texto-centrado">Experiencia en educación</h3>
+    <h3 class="titulo-centrado">Teaching experience</h3>
     <div class="row justify-content-center">
-      <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-        imagen lugar 4
+      <div class="experience-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+        <strong>GoINTEC <i>(Ministerio de Educación C.A.B.A.)</i></strong>
+        <div class="row"><date>2011 - actualidad</date></div>
       </div>
       <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-        </p>
+        <p><i>
+          Soy facilitadora pedagógico digital en nivel primario. Trabajo como par pedagógico del docente, planificando 
+          conjuntamente diversas actividades con incorporación de TIC.<br>
+          Capacito a niños y a adultos en el uso de las herramientas necesarias para los diferentes dispositivos y 
+          web.
+        </i></p>
       </div>
     </div>
     <hr>
     <div class="row justify-content-center">
-      <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-        imagen lugar 3
+      <div class="experience-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+        <strong>Escuela Dr.Hertz - Iona</strong>
+        <div class="row"><date>2021 - actualidad</date></div>
       </div>
       <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-        </p>
+        <p><i>
+          Profesora de computación, programación y robótica de niños de 3 a 5 años.<br>
+          Enseñando pensamiento computacional, programación por bloques y otras aplicaciones. <br>
+          En en área de robótica, utilizando los equipos de Matatalab.
+        </i></p>
       </div>
     </div>    
     <hr>
     <div class="row justify-content-center">
-      <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-        imagen lugar 2
+      <div class="experience-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+        <strong>Escuela Tel Aviv</strong>
+        <div class="row"><date>2008 - 2018</date></div>
       </div>
       <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-        </p>
+        <p><i>
+          Docente de hebreo nivel primario. Enseñanza de la lectoescritura en el idioma. Armado de libros para practicar.
+        </i></p>
       </div>
     </div>
     <hr>
     <div class="row justify-content-center">
       <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-        imagen lugar 1
+        <strong>Asociación Amigos de la Astronomía</strong>
+        <div class="row"><date>2000 - 2015</date></div>
       </div>
       <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          Autem praesentium perferendis blanditiis corporis pariatur molestias 
-          unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-          neque laborum recusandae sit animi? Perspiciatis, iure?
-        </p>
+        <p><i>
+          Investigación en fotografía electrónica (Meade). Visitas 
+          astronómicas guiadas para público general. Atención contingentes escolares (visitas educativas).
+        </i></p>
       </div>
     </div>
   </div>
 
 <!---EXPERIENCIA DISEÑO GRAFICO-->
 <div class="container experience justify-content-center">
-  <h3 class="texto-centrado">Experiencia en diseño gráfico</h3>
+  <h3 class="titulo-centrado">Graphic designer experience</h3>
   <div class="row justify-content-center">
-    <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      imagen lugar 4
+    <div class="experience-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <strong>Tecno Design</strong>
+      <div class="row"><date>2020 - 2021</date></div>
     </div>
     <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-      </p>
+      <p><i>
+        Cambios en el código del sitio. Apertura y manejo de redes sociales.
+      </i></p>
     </div>
   </div>
   <hr>
   <div class="row justify-content-center">
-    <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      imagen lugar 3
+    <div class="experience-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <strong>Trabajos varios</strong>
+        <div class="row"><date>1994 - actualidad</date></div>
     </div>
     <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-      </p>
+      <p><i>
+        Trabajos varios de diseño: logotipos, sitios web, diseño editorial, entre otros.
+      </i></p>
     </div>
   </div>    
   <hr>
   <div class="row justify-content-center">
-    <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      imagen lugar 2
+    <div class="experience-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <strong>Asociación Am</strong>
+        <div class="row"><date>2000 - 2015</date></div>
     </div>
     <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         Autem praesentium perferendis blanditiis corporis pariatur molestias 
         unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-      </p>
-    </div>
-  </div>
-  <hr>
-  <div class="row justify-content-center">
-    <div class="experience-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      imagen lugar 1
-    </div>
-    <div class="experience col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
       </p>
     </div>
   </div>
@@ -227,107 +174,111 @@
 
 <!---EDUCACION-->
 <div class="container experience justify-content-center">
-  <h3 class="texto-centrado">Educación</h3>
+  <h3 class="titulo-centrado">Education</h3>
   <div class="row justify-content-center">
     <div class="education-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      Argentina Programa
+      <strong>Desarrolladora Web Fill Stack JR</strong>
+      <div class="row"><date>2022</date></div>
     </div>
     <div class="education col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
+      <p><i>
+        <strong>Argentina Programa</strong><br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         Autem praesentium perferendis blanditiis corporis pariatur molestias 
         unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-      </p>
+      </i></p>
     </div>
   </div>
   <hr>
   <div class="row justify-content-center">
-    <div class="education-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      Diseño gráfico
+    <div class="education-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <strong>Diseño Gráfico</strong>
+      <div class="row"><date>1991 - 1993</date></div>
     </div>
     <div class="education col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-      </p>
+      <p><i>
+        <strong>ORT</strong><br>
+        Carrera terciaria de la carrera Diseño gráfico. Cursé en una época donde apenas empezaban a utilizarse 
+        las computadoras, el diseño era a mano y dedicarse al diseño web, inimaginable. 
+      </i></p>
     </div>
   </div>    
   <hr>
   <div class="row justify-content-center">
-    <div class="education-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      Profesorado de hebreo
+    <div class="education-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <strong>Profesorado de hebreo</strong>
+      <div class="row"><date>1990 - 1993</date></div>
     </div>
     <div class="education col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-      </p>
+      <p><i>
+        <strong>Mijlelet Shazar</strong><br>
+        Carrera de profesora de hebreo nivel primario. Hice también materias intensivas en la UNiversidad de Tel Aviv, en Israel.
+      </i></p>
     </div>
   </div>
   <hr>
   <div class="row justify-content-center">
-    <div class="education-image-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-      Secundario
+    <div class="education-col col-xs-2 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <strong>Secundario</strong>
+      <div class="row"><date>1984 - 1988</date></div>
     </div>
     <div class="education col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Autem praesentium perferendis blanditiis corporis pariatur molestias 
-        unde aspernatur explicabo iste iure, aperiam exercitationem esse 
-        neque laborum recusandae sit animi? Perspiciatis, iure?
-      </p>
+      <p><i>
+        <strong>Instituto Modelo Hebreo Argentino "Rambam"</strong><br>
+        Trayectoria con especialización, bachiller con orientación pedagógica.
+      </i></p>
     </div>
   </div>
 </div>  
 
 <!---HARD & SOFT SKILLS: PROGRAMAS E IDIOMAS-->  
 <div class="container experience justify-content-center">
-  <h3 class="texto-centrado">Habilidades</h3>
+  <h3 class="titulo-centrado">Soft & Hard Skills</h3>
   <div class="row justify-content-center">
-    Programas:
-    HTML 5
-    CSS 3
-    JS
-    BOOTSTRAP
-    PHOTOSHOP
-    INDESIGN
-    ILLUSTRATOR
-    SHOTCUT
-
-    Idiomas:
-    HEBREO
-    INGLES
+    <div class="education col-xs-10 col-sm-6 col-md-8 col-lg-8 col-xl-9">
+      <p><i>
+        Estas son algunas de mis habilidades.
+      </i></p>
+    </div class="row justify-content-center">
+      <div class="education col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <h4 class="titulo-centrado">Front End</h4>
+        <div class="row">
+          HTML 5<br>
+          CSS 3<br>
+          JS<br>
+          BOOTSTRAP<br>
+          ANGULAR
+        </div>
+      </div>
+      <div class="education col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <h4 class="titulo-centrado">Back End</h4>
+        <div class="row">
+          H1<br>
+          CS1 3<br>
+          J1<br>
+          B1
+        </div>
+      </div>
+      <div class="education col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <h4 class="titulo-centrado">Soft Skills</h4>
+        <div class="row">
+          PHOTOSHOP<br>
+          ILLUSTRADOR<br>
+          INDESIGN<br>
+          IDIOMAS: Inglés / Hebreo
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <!---PROYECTOS-->
 <div class="container experience justify-content-center">
-  <h3 class="texto-centrado">Proyectos</h3>
+  <h3 class="titulo-centrado">Projects</h3>
   <div class="row justify-content-center">
-  <p>
+  <p><i>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates accusamus officia eos illo pariatur vero est nam eius molestiae recusandae! Illum sapiente esse, dicta sed possimus quo aut eos. Possimus?
-  </p>
+  </i></p>
   </div>
 </div>
     
@@ -337,4 +288,3 @@
 <!----FOOTER???-->
 
 </html>
-
