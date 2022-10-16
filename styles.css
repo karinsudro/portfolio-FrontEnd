@@ -92,14 +92,6 @@ input::placeholder{
   --opacidad-negro: 0.5;
   background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro)))
 }
-
-/*@media screen and (max-width: 1024px) { /* Specific to this particular image
-img.encabezado {
-  left: 0%;
-  margin-left: -512px;
-}
-}*/
-
 /*---FIN IMAX FONDO---*/
 
 /*---INTRO---*/
@@ -203,7 +195,6 @@ date{
   background-color: #1a85f7;
 }
 
-
 span {
   display:block;
   position: relative;
@@ -212,4 +203,19 @@ span {
   color: #888888;
   line-height: 17px;
   margin-bottom:5px;
+}
+/*--FIN PROGRESS BAR--*/
+
+/*--FOOTER--*/
+#footer{
+  background-color: #69014b;
+  position: relative;
+  margin-top:20px;
+  justify-content: center;
+  display: flex;
+}
+.datos-pie{
+  color:#fff;
+  text-align: center;
+  padding-top: 5px;
 }
