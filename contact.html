@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Login</title>
+    <title>Contact me</title>
 
  </head>
 
@@ -42,9 +42,10 @@
           <li class="list-group-item"><a href="#resume">
               <i class="fa-solid fa-file fa-lg"></i>
           </a></li>
-          <li class="list-group-item"><a href="contact.html">
-              <i class="fa-solid fa-comment fa-lg"></i>
-          </a></li>      
+          <!-- Button opens contact me modal -->
+          <li class="list-group-item">
+            <a href="contact.html"><i class="fa-solid fa-comment fa-lg"></i></a>
+          </li>      
           <li class="list-group-item">
           <!-- Button opens login modal -->
               <a href="login.html"><i class="fa-solid fa-user-lock fa-lg"></i></a>
@@ -55,7 +56,7 @@
       
 
 
-<!--LOGIN-->
+<!--CONTACT ME-->
 <div class="container-fluid">
 <div class="login-base">
   <div class="contenido-login">
@@ -64,28 +65,29 @@
         
       </div>
 
-      <div class="col-4 armado-login">
+      <div class="col-4 armado-login contact">
         <div class="modal-body">
+          <p><i><strong>Si querés contactarme o dejarme algún comentario, te invito a completar este formulario. ¡Muchas gracias!</strong></i></p>
             <form>
               <div class="mb-3">
-                <label for="InputNombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="InputNombre" placeholder="Tus datos son confidenciales" aria-describedby="nombreHelp">
+                <label for="NombreContact" class="form-label">*Nombre</label>
+                <input type="text" class="form-control" id="NombreContact" placeholder="Ej: Steve Jobs" aria-describedby="nombreHelp">
               </div>
               <div class="mb-3">
-                <label for="InputEmail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="Tus datos son confidenciales" aria-describedby="emailHelp">
+                <label for="EmailContact" class="form-label">*E-mail</label>
+                <input type="email" class="form-control" id="EmailContact" placeholder="Ej: email@correo.com" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <label for="InputPassword" class="form-label">Password</label>
-                <input type="password" class="form-control" id="InputPassword"placeholder="Tus datos son confidenciales" >
+                <label for="MensajeContact" class="form-label">*Mensaje</label>
+                <textarea class="text w-100" id="MensajeContact" style="overflow:auto;" rows="7" placeholder=" ¡Dejame tu mensaje!"></textarea>
+                <small><i>*Campos requeridos</i></small>
               </div>
             </form>
         </div>
     
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-sm">Ingresar</button>
+          <button type="button" class="btn btn-secondary btn-sm">Enviar</button>
           </div>
-          <small>Si no tenés cuenta, <a href="register.html">registrate</a>.</small>
       </div>
 
       <div class="col-4">
