@@ -14,21 +14,23 @@
 }
 
 body{
-    background-color: #fff;
-    position:relative;
-    max-height: 100vh;
+    background-image:url(images/painting3.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+    --opacidad-negro: 0.5;
 }
 
 /*--- NAVBAR ---*/
-header{
-  position: fixed;
-  z-index: 1200;
-}
-.navbar{
+nav.navbar{
     position:fixed;
     width:100%;
-    padding:10px;
-    margin-top:-20px;
+    z-index:1200;
     background-color: #fff;
     box-shadow: 1px 6px 14px 2px #69014bbf;
     -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
@@ -52,31 +54,23 @@ header{
   border:none;
 }
 
+
 /*---LOGIN MODAL---*/
 
 .login-base{
-  height: 89vh;
+  margin-top: 0;
 }
 
-.contenido-login{
-  position:absolute;
-  top:0px;
-  bottom:0px;
-  left:0px;
-  right:0px;
-  margin:0px;
-}
 .armado-login{
   margin-top: 15%;
 }
-
+.contact{
+  margin-top: 10% !important;
+}
 input::placeholder{
   font-style: italic;
-  font-size: 1em;
+  font-size: .9em;
 }
-/*#loginModal{
-  z-index:1090;
-}*/
 
 /*---FIN NAVBAR---*/
 
@@ -84,22 +78,15 @@ input::placeholder{
 
 /*--- ARMADO ---*/
 
-/*---IMAX FONDO---*/
-.encabezado{
-  position:fixed;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  -ms-background-size:cover;
-  --opacidad-negro: 0.5;
-  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro)))
-}
-/*---FIN IMAX FONDO---*/
-
 /*---INTRO---*/
+.container-2{
+  width:100vh;
+  margin-top:10px;
+  padding:20px;
+  position:relative;
+  z-index:1080;
+  background-color:transparent;
+}
 .caratula-intro{
   height: 100vh;
   background-color: transparent !important;
@@ -127,7 +114,7 @@ h3.intro{
 /*---CONTENEDORES---*/
 .container{
   width:70%;
-  margin-top:20px;
+  margin-bottom:15px;
   padding:20px;
   position:relative;
   z-index:1080;
@@ -137,11 +124,6 @@ h3.intro{
   box-shadow: 1px 6px 14px 2px #69014bbf;
   -webkit-box-shadow: 1px 6px 14px 2px #af014bbf;
   -moz-box-shadow: 1px 6px 14px 2px #af014bbf;
-}
-
-.container-fluid{
-  --bs-gutter-x: 1rem;
-  margin-top:20px
 }
 
 /*---TEXTOS---*/
@@ -168,11 +150,6 @@ date{
   align-items:center;
 }
 
-.bio-image{
-  width:90%;
-  clip-path: circle(50% at 50% 50%);
-}
-
 .bio-title{
   text-align: center;
   font-size:.75em;
@@ -186,7 +163,6 @@ date{
 .progress-bar{
   background-color: #c5068f;
 }
-
 .progress-bar-frontend{
   background-color: #8b0666;
 }
@@ -211,16 +187,80 @@ span {
 }
 /*--FIN PROGRESS BAR--*/
 
+
 /*--FOOTER--*/
-#footer{
+#footer{ 
   background-color: #69014b;
-  position: relative;
   margin-top:20px;
   justify-content: center;
   display: flex;
 }
 .datos-pie{
   color:#fff;
-  text-align: center;
+  text-align: center center;
   padding-top: 5px;
 }
+
+
+/*---ADMIN---*/
+.container-fluid-modal{
+  text-align: left !important;
+  width: 75%;
+  margin-top: 7rem;
+  padding-left: 3rem;
+  background-color: transparent !important;
+  border:none !important;
+  border-radius:none !important;
+  box-shadow:none !important;
+  -webkit-box-shadow:none !important;
+  -moz-box-shadow:none !important;
+}
+.admin-siguiente{
+  margin-top: 3rem !important;
+}
+
+.admin{
+  margin-top: 20px;
+}
+
+.links{
+  text-decoration: none;
+}
+.yo-image{
+  width: 50%;;
+}
+
+.btn-guardar{
+  background-color: #2c9011;
+  color: #fff;
+}
+.btn-cancelar{
+  background-color: #ab0c0c;
+  color: #fff;
+}
+
+textarea::placeholder{
+  font-style: italic;
+  font-size: .9em;
+}
+
+
+/*---NAVEG LATERAL MENU---*/
+nav.vertical{
+  float: left;
+  margin-left: -1rem;
+  margin-top: 5rem;
+  align-items: center;
+  position: fixed;
+}
+li.vertical{
+  display:block;
+  margin:0;
+  writing-mode:vertical;
+  padding:1rem;
+  font-size:1.2rem;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
